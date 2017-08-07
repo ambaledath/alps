@@ -1,0 +1,12 @@
+#slider {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+}

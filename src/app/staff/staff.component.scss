@@ -1,0 +1,24 @@
+#staff{
+    background: rgba(251,188,5,0.3);
+    .staff-block{
+        padding: 30px 0 20px;
+        background: #fff;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        &:hover{
+            -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        }
+        figure{
+            margin-bottom: 20px;
+        }
+        .img-responsive{
+            argin: 0 auto;
+            border-radius: 50%;
+        }
+        h5{
+            font-size: 20px;
+        }
+    }
+}

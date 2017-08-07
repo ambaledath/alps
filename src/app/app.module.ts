@@ -1,0 +1,32 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { AboutComponent } from './about/about.component';
+import { StaffComponent } from './staff/staff.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { SliderComponent } from './header/slider/slider.component';
+import { FeaturesComponent } from './features/features.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    AboutComponent,
+    StaffComponent,
+    GalleryComponent,
+    ContactComponent,
+    FooterComponent,
+    SliderComponent,
+    FeaturesComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
