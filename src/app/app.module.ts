@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { SliderComponent } from './header/slider/slider.component';
 import { FeaturesComponent } from './features/features.component';
+import { MapComponent } from './contact/map/map.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -21,10 +23,14 @@ import { FeaturesComponent } from './features/features.component';
     ContactComponent,
     FooterComponent,
     SliderComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    MapComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDqDIm1tJ087ZlyPjhMyxivfnOwN2difCE'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

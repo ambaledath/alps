@@ -5,3 +5,12 @@ body{
     font-weight: 400;
     color: #555;
 }
+
+#about-us h2, #staff h2, #gallery h2, #contact h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#about-us, #staff, #gallery, #contact{
+    padding: 20px 0 50px;
+}
