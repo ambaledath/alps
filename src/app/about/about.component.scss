@@ -16,10 +16,11 @@
     border-top-color: #ffd7d2;
 }
 
-#about-us .fa{
-    color: #ED47C5;
-}
-
-#about-us figure{
-    margin-top: 20px;
+#about-us{
+    .fa{
+        color: #ED47C5;
+    }
+    figure{
+        margin-top: 20px;
+    }
 }

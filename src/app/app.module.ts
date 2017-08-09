@@ -12,6 +12,7 @@ import { SliderComponent } from './header/slider/slider.component';
 import { FeaturesComponent } from './features/features.component';
 import { MapComponent } from './contact/map/map.component';
 import { AgmCoreModule } from '@agm/core';
+import { NavComponent } from './header/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AgmCoreModule } from '@agm/core';
     FooterComponent,
     SliderComponent,
     FeaturesComponent,
-    MapComponent
+    MapComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

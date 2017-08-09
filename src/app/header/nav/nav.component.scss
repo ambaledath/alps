@@ -1,0 +1,53 @@
+.navbar{
+    border: 0;
+}
+
+.navbar-brand{
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+    color: #4285f4;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse{
+    min-height: 80px;
+    padding-top: 15px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    .navbar-nav > li a{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+.navbar-inverse .navbar-nav{
+    li.link-home{
+        background: #4285f4;
+    }
+    li.link-about{
+        background: #ea4335;
+    }
+    li.link-staff{
+        background: #fbbc05;
+    }
+    li.link-gallery{
+        background: #34a853;
+    }
+    li.link-contact{
+        background: #ED47C5;
+    }
+}
+
+.navbar-inverse{
+    .navbar-toggle{
+        border-color: #989898;
+        .icon-bar{
+            background-color: #989898;
+        }
+    }
+}
