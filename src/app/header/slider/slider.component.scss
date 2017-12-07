@@ -1,12 +1,27 @@
-#slider {
+#slides{
     position: relative;
     height: 400px;
+    list-style-type: none;
     overflow: hidden;
-    img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        transition: all 0.5s ease;
-    }
+    margin-bottom: 0;
+}
+
+#slides li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+#slides li img{
+    width: 100%;
+}
+
+#slides li.showing{
+    opacity: 1;
+    z-index: 2;
 }
