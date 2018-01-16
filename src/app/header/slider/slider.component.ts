@@ -10,7 +10,7 @@ export class SliderComponent implements OnInit {
     constructor() { }
 
     ngOnInit() {
-        
+
         var slides = document.querySelectorAll('#slides li');
         var currentSlide = 0;
         var slideInterval = setInterval(nextSlide,2000);
@@ -20,7 +20,7 @@ export class SliderComponent implements OnInit {
             currentSlide = (currentSlide+1)%slides.length;
             slides[currentSlide].className = 'showing';
         }
-       
+
     }
 
 }
